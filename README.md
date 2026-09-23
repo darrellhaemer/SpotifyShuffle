@@ -29,7 +29,7 @@ Download Python from the official site, **https://www.python.org/downloads/**, a
 On Windows, the installer may offer to add Python to your PATH. Say **yes** (`y`, or tick the "Add python.exe to PATH" checkbox). If it asks whether to install Python (CPython) now, say **yes**.
 
 Then **close any open PowerShell or Terminal window and open a new one (press the Windows key, type Powershell, press Enter)**, and check that it worked by entering:
-
+```
 python --version
 ```
 
@@ -40,7 +40,7 @@ You should see a version number. If Windows says `python` isn't recognized, try 
 
 In Powershell, enter:
 Note: "spotipy" is not a typo.
-
+```
 pip install spotipy requests
 ```
 
@@ -74,7 +74,6 @@ A. Open PowerShell (or Terminal) and navigate to your folder with something like
 B. Run one of the scripts by entering either of the following:
    ```
    python spotify_shuffle_basic.py
-   ```
    python spotify_shuffle_spaced.py
    ```
 
