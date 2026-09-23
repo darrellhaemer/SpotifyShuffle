@@ -1,0 +1,8 @@
+# NEVER upload this: it is a saved login to your Spotify account
+.spotify_token_cache
+
+# Python clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
